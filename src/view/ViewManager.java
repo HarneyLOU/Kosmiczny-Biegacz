@@ -331,8 +331,10 @@ public class ViewManager {
 	
 	private void createLogo() {
 		ImageView logo = new ImageView("view/resources/logo.png");
-		logo.setLayoutX(256);
+		
+		logo.setLayoutX(220);
 		logo.setLayoutY(25);
+		
 		logo.setOnMouseEntered(new EventHandler<MouseEvent>() {
 			@Override
 			public void handle(MouseEvent event) {
